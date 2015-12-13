@@ -1,6 +1,6 @@
 {
   "name": "sizeist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "takes a readable stream and emits its size (in bytes) at various stages of compression",
   "main": "index.js",
   "dependencies": {
