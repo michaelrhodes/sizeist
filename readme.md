@@ -25,8 +25,8 @@ sizeist(fs.createReadStream('usage.js'))
 
 // Output:
 // size 387
-// size:uglify 272
-// size:uglify:gzip 164
+// size:uglify 273
+// size:uglify:gzip 168
 // done
 ```
 

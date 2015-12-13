@@ -5,8 +5,8 @@ var sizeist = require('./')
 test('it works', function (assert) {
   sizeist(fs.createReadStream('usage.js'))
     .on('size', expect('size', 387))
-    .on('size:uglify', expect('size:uglify', 272))
-    .on('size:uglify:gzip', expect('size:uglify:gzip', 164))
+    .on('size:uglify', expect('size:uglify', 273))
+    .on('size:uglify:gzip', expect('size:uglify:gzip', 168))
     .on('finish', assert.end)
 
   function expect (name, expected) {
